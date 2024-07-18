@@ -21,6 +21,7 @@ The Face Authenticator application uses machine learning to identify and authent
 - `main.dart`: Main file containing the entry point of the application.
 - `auth_screen.dart`: Screen handling the authentication logic and user interface.
 - `camera_screen.dart`: Screen for capturing the user's face using the device's camera.
+- `Models`: Directory containing the models that the aplication needs.
 - `services`: Directory containing the services for face recognition and data handling.
 - `Widgets`: Directory containing the widgets  for face recognition and data handling.
 
