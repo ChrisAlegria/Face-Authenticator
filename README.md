@@ -1,72 +1,58 @@
-# Predictive Analysis for Retail Store
-
-This project focuses on developing a predictive model for a retail store to forecast sales based on various characteristics. The goal is to predict total sales for the next month using data from previous months.
+# Face Authenticator
+This project is a face authentication application developed using Dart and Flutter. It provides a secure and convenient way to authenticate users by recognizing their faces.
 
 ## Description
-
-The project involves several steps including data preprocessing, exploratory data analysis (EDA), model selection, model training and evaluation, and providing recommendations based on findings. We use a dataset containing information on sales, day of the week, promotions, holidays, and more.
+The Face Authenticator application uses machine learning to identify and authenticate users based on facial features. It captures an image of the user's face, processes it, and verifies the identity against stored data. This application is designed to be used on various devices, ensuring secure access and identity verification.
 
 ## Installation and Usage
-
-1. Make sure you have Python installed on your system.
+1. Ensure you have Flutter installed on your system.
 2. Clone this repository to your local machine.
-3. Install the required packages using `pip install -r requirements.txt`.
-4. Run the Jupyter notebook files to see the analysis and results.
+3. Open the project in your preferred IDE.
+4. Run the command `flutter run` in the terminal to compile and run the application on your device.
 
 ## Technologies Used
-
-- **Python**: Programming language used for data analysis and model development.
-- **Pandas**: Library for data manipulation and analysis.
-- **NumPy**: Library for numerical computations.
-- **Matplotlib**: Library for data visualization.
-- **Scikit-learn**: Machine learning library for model training and evaluation.
+- **Dart**: Programming language used to develop the application logic.
+- **Flutter**: Framework used to build the user interface and manage the application logic.
+- **Firebase ML Kit**: Used for implementing face recognition and authentication.
+- **Camera**: Flutter package used for camera functionalities.
+- **Path Provider**: Package used to handle file storage and retrieval.
 
 ## File Structure
-
-- `data/`: Directory containing the dataset files.
-- `notebooks/`: Directory containing the Jupyter notebooks for each step of the analysis.
-- `scripts/`: Directory containing Python scripts for data preprocessing and model training.
-- `requirements.txt`: File listing all the dependencies required for the project.
-- `README.md`: Project documentation file.
+- `main.dart`: Main file containing the entry point of the application.
+- `auth_screen.dart`: Screen handling the authentication logic and user interface.
+- `camera_screen.dart`: Screen for capturing the user's face using the device's camera.
+- `services`: Directory containing the services for face recognition and data handling.
+- `Widgets`: Directory containing the widgets  for face recognition and data handling.
 
 ## Help
+If you need help with Flutter development, here are some useful commands and resources:
 
-If you need help with Python development, here are some useful commands and resources:
-
-### Common Python Commands
-
-- **Run a script**: `python script_name.py`
-- **Install dependencies**: `pip install -r requirements.txt`
-- **Run Jupyter notebook**: `jupyter notebook`
-- **Check Python version**: `python --version`
+### Common Flutter Commands
+- **Run the app**: `flutter run`
+- **Build the app**: `flutter build <platform>`
+- **Analyze the code**: `flutter analyze`
+- **Run tests**: `flutter test`
+- **Clean the project**: `flutter clean`
 
 ### Useful Resources
-
-- [Python Documentation](https://docs.python.org/3/)
-- [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
-- [NumPy Documentation](https://numpy.org/doc/)
-- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Flutter GitHub Repository](https://github.com/flutter/flutter)
+- [Dart Packages](https://pub.dev/)
+- [Firebase ML Kit Documentation](https://firebase.google.com/docs/ml-kit)
 
 ## Additional Resources
-
 If you have problems, here are some resources to help you get started:
 
-- [Python for Data Analysis](https://www.oreilly.com/library/view/python-for-data/9781491957653/)
-- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Python development, view the
-[online documentation](https://docs.python.org/3/), which offers tutorials,
-samples, and a full API reference.
+For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
 
 ## Deployment
-
-You can deploy this analysis on any system with Python and the required libraries installed. Simply clone the repository, install the dependencies, and run the notebooks or scripts.
+You can deploy this application on any device that supports Flutter. Simply compile the project and load it onto your device.
 
 ## Inspiration and Design
-
-This project draws inspiration from various data science and machine learning resources. It aims to provide a clear and straightforward approach to predictive analysis for retail sales.
+This project draws inspiration from various sources; however, I do not claim ownership of the design elements used. This project is purely for interactive purposes.
 
 ## Development
-
 This project was developed by `©ChrisAlegria`. All rights reserved. Unauthorized reproduction or distribution of this project, or any portion of it, is prohibited.
